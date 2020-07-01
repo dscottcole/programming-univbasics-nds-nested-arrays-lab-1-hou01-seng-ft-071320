@@ -26,6 +26,7 @@ def assembled_matrix
     CONVENTIONAL_PRODUCE
     ]
     binding.pry
+    matrix
 end
 
 def sorted_matrix
