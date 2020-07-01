@@ -1,5 +1,5 @@
 # Examples inspired by U. S. National Organic Standards
-
+require 'pry'
 ORGANIC_PRODUCE = [
   "Strawberries",
   "Potatoes",
@@ -25,6 +25,7 @@ def assembled_matrix
     ORGANIC_PRODUCE,
     CONVENTIONAL_PRODUCE
     ]
+    binding.pry
 end
 
 def sorted_matrix
